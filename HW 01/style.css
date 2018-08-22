@@ -1,0 +1,43 @@
+body{
+
+	background: #fcf8f2;
+	font-family: sans-serif;
+	color: blue;
+	text-align: center;
+
+}
+
+a{
+	text-decoration: none;
+	color:#eae2d8;
+}
+
+p{
+	font-size: 100px;
+	font-weight: bolder;
+	text-align: center;
+	margin: 150px 150px;
+}
+
+p>span{
+
+	color:#eae2d8;
+}
+
+h1{
+	font-size:100px;
+	font-weight: bolder;
+	text-align: left;
+}
+
+
+ul{
+	font-size: 30px;
+	text-align: left;
+}
+
+ol{
+	font-size: 30px;
+	text-align: left;
+}
+
