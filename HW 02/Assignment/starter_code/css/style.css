@@ -1,0 +1,182 @@
+/*
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Youna
+Developer @GA in NYC
+*/
+/******************************************
+/* SETUP
+/*******************************************/
+/* Box Model Hack */
+* {
+-moz-box-sizing: border-box;
+/* Firexfox */
+-webkit-box-sizing: border-box;
+/* Safari/Chrome/iOS/Android */
+box-sizing: border-box;
+/* IE */
+}
+/* Clear fix hack */
+.clearfix:after {
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
+}
+.clear {
+clear: both;
+}
+.alignright {
+float: right;
+padding: 0 0 10px 10px;
+/* note the padding around a right floated image */
+}
+.alignleft {
+float: left;
+padding: 0 10px 10px 0;
+/* note the padding around a left floated image */
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+color: #f0efef;
+font-size: 26px;
+line-height: 1.4;
+font-family: 'Open Sans', sans-serif;
+background: url(../images/header_bg.jpg);
+background-size: cover;
+}
+.container {
+width: 960px;
+margin: auto;
+}
+header .logo {
+font-size: 48px;
+font-weight: 800;
+color: white;
+margin: 30px 0;
+}
+header {
+height: 700px;
+background: url(../images/header_bg.jpg) no-repeat top center;
+background-color: black;
+padding-top: 32px;
+}
+h1 {
+font-size: 24px;
+font-weight: bold;
+color: white;
+font-style:
+}
+h2 {
+font-size: 48px;
+color: white;
+text-align: center;
+font-weight: 600;
+margin: 130px 0 90px;
+}
+.button {
+font-size: 28px;
+font-weight: bolder;
+text-align: center;
+display: block;
+padding: 12px, 0;
+width: 280px;
+height: 65px;
+border-radius: 5px;
+margin: auto;
+}
+.yellow {
+color: #033048;
+background-color: #f9e42e;
+}
+#benefits {
+padding: 100px 0px 80px;
+color:#033048;
+font-size: bold;
+background-color: #f0efef;
+}
+h3 {
+font-size: 40px;
+margin: 0 0 40px 0;
+}
+p{
+width:600px;
+}
+#benefits ul{
+margin: 30px 0 0 65px;
+font-weight: 300;
+list-style: disc;
+}
+.container {
+width: 960px;
+margin: auto; 
+}
+#testimonial {
+background: url(../images/testimonial_bg.jpg) no-repeat top center;
+background-color: #071324;
+color:#ffff;
+padding: 70px 0 70px;
+}
+h4 {
+font-size: 36px;
+font-weight: 300;
+font-style: italic;
+text-align: center;
+width: 560px;
+margin: 0 auto;
+}
+span {
+font-weight: 600;
+font-style: normal;
+}
+aside {
+background: #f9e42e;
+padding: 30px;
+text-align: center
+}
+.button {
+font-size: 28px;
+font-weight: bolder;
+text-align: center;
+display: block;
+padding: 12px 0;
+width: 280px;
+border-radius: 5px;
+margin: 0 auto;
+text-decoration: none;
+}
+.blue {
+background-color: #033048;
+color: white;
+}
+footer {
+font-size: 48px;
+background-color:#121212;
+font-weight: 600;
+text-align: center;
+padding: 65px 0 45px;
+}
+footer .logo {
+color: #f9e42e;
+margin-bottom: 70px;
+font-size: 48px;
+font-weight: 800;
+}
+footer ul li{
+display: inline-block;
+list-style: none;
+margin: 0 26px 60px;
+}
+footer p {
+font-size: 18px;
+color:white;
+display: inline-block;
+font-weight: 600;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
